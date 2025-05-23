@@ -1,0 +1,177 @@
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Majok</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+        /* Internal CSS for demonstration */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #00ffff;
+            padding: 2em 0;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 1em;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #00ffe1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container, section, table {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            max-width: 1000px;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #00ffff;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: #f0f0f0;
+            color: #333;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            background: #222;
+            color: #00ffff;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        a {
+            color: #00ffd5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MY PORTFOLIO</h1>
+        <h2>Majok Deng Majok</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="#contact">Contacts</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>WELCOME TO MY PORTFOLIO</h1>
+        <p>This is a paragraph about me.</p>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Majok Deng Majok, a passionate cybersecurity student at Strathmore University currently in my second year doing a degree in Cybersecurity and Networking. I love things that deal with hacking since that is the field I will specialize in after my degree. I also like web development.</p>
+        <p>I have done several projects and worked with different platforms like ALX and LinkedIn. Aside from computing and cybersecurity, I also like playing basketball and doing research.</p>
+    </section>
+
+    <section id="Projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Music App</h3>
+                <p>A music app for my programming class that stores, downloads, plays, and deletes music. It works great!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>📞 Mobile: 0703020540</p>
+        <p>📧 Email: <a href="mailto:majok.majok@strathmore.edu">majok.majok@strathmore.edu</a></p>
+        <p>🔗 LinkedIn: <a href="https://ke.linkedin.com">My Profile</a></p>
+        <p>📷 Instagram: <a href="#">My Instagram</a></p>
+        <p>📘 Facebook: <a href="#">My Facebook</a></p>
+        <p>💻 GitHub: <a href="#">My GitHub Profile</a></p>
+    </section>
+
+    <section class="container">
+        <h2>Career Info</h2>
+        <table>
+            <tr>
+                <td>
+                    <h4>Portfolio Highlights</h4>
+                    <ul>
+                        <li>Responsive HTML Layout</li>
+                        <li>Responsive Music App</li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Career Achievements</h4>
+                    <p>To be added</p>
+                </td>
+                <td>
+                    <h4>Academic Qualifications</h4>
+                    <p>Bachelors in Cybersecurity and Networking at Strathmore University</p>
+                    <p>Specialization:</p>
+                    <ul>
+                        <li>Data Analysis</li>
+                        <li>Web Development</li>
+                        <li>Cloud Computing</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="container">
+        <h3>Peer Review</h3>
+        <p>Majok Deng has great leadership and problem-solving skills, especially in project management.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Majok Deng Majok. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
